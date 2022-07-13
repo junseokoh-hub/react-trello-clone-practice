@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { useRecoilState } from "recoil";
 import { toDoState } from "./atoms";
 import Board from "./Components/Board";
-import { reduceEachTrailingCommentRange } from "typescript";
 
 const Wrapper = styled.div`
   display: flex;
